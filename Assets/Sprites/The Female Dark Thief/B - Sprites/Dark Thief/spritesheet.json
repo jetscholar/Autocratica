@@ -1,0 +1,635 @@
+{
+	"frames": {
+		"B - Sprites/Dark Thief/arm_l.png": {
+			"frame": {
+				"h": 161,
+				"w": 71,
+				"x": 835,
+				"y": 933
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 162,
+				"w": 71
+			},
+			"spriteSourceSize": {
+				"h": 161,
+				"w": 71,
+				"x": 0,
+				"y": 1
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/arm_r.png": {
+			"frame": {
+				"h": 161,
+				"w": 71,
+				"x": 539,
+				"y": 949
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 162,
+				"w": 71
+			},
+			"spriteSourceSize": {
+				"h": 161,
+				"w": 71,
+				"x": 0,
+				"y": 1
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/arrow.png": {
+			"frame": {
+				"h": 355,
+				"w": 42,
+				"x": 759,
+				"y": 5
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 356,
+				"w": 42
+			},
+			"spriteSourceSize": {
+				"h": 355,
+				"w": 42,
+				"x": 0,
+				"y": 1
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/bow.png": {
+			"frame": {
+				"h": 599,
+				"w": 130,
+				"x": 5,
+				"y": 480
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 599,
+				"w": 130
+			},
+			"spriteSourceSize": {
+				"h": 599,
+				"w": 130,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/calf_l.png": {
+			"frame": {
+				"h": 183,
+				"w": 73,
+				"x": 656,
+				"y": 850
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 183,
+				"w": 73
+			},
+			"spriteSourceSize": {
+				"h": 183,
+				"w": 73,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/calf_r.png": {
+			"frame": {
+				"h": 165,
+				"w": 83,
+				"x": 446,
+				"y": 949
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 165,
+				"w": 84
+			},
+			"spriteSourceSize": {
+				"h": 165,
+				"w": 83,
+				"x": 1,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/cape.png": {
+			"frame": {
+				"h": 263,
+				"w": 129,
+				"x": 941,
+				"y": 57
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 263,
+				"w": 129
+			},
+			"spriteSourceSize": {
+				"h": 263,
+				"w": 129,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/foot_l.png": {
+			"frame": {
+				"h": 52,
+				"w": 72,
+				"x": 916,
+				"y": 994
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 52,
+				"w": 72
+			},
+			"spriteSourceSize": {
+				"h": 52,
+				"w": 72,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/foot_r.png": {
+			"frame": {
+				"h": 50,
+				"w": 47,
+				"x": 978,
+				"y": 994
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 50,
+				"w": 47
+			},
+			"spriteSourceSize": {
+				"h": 50,
+				"w": 47,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/forearm_l.png": {
+			"frame": {
+				"h": 99,
+				"w": 45,
+				"x": 697,
+				"y": 463
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 100,
+				"w": 45
+			},
+			"spriteSourceSize": {
+				"h": 99,
+				"w": 45,
+				"x": 0,
+				"y": 1
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/forearm_r.png": {
+			"frame": {
+				"h": 99,
+				"w": 45,
+				"x": 642,
+				"y": 463
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 100,
+				"w": 45
+			},
+			"spriteSourceSize": {
+				"h": 99,
+				"w": 45,
+				"x": 0,
+				"y": 1
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/hand_l.png": {
+			"frame": {
+				"h": 77,
+				"w": 61,
+				"x": 862,
+				"y": 836
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 77,
+				"w": 61
+			},
+			"spriteSourceSize": {
+				"h": 77,
+				"w": 61,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/hand_r.png": {
+			"frame": {
+				"h": 77,
+				"w": 60,
+				"x": 916,
+				"y": 907
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 77,
+				"w": 61
+			},
+			"spriteSourceSize": {
+				"h": 77,
+				"w": 60,
+				"x": 1,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/hand_r_2.png": {
+			"frame": {
+				"h": 80,
+				"w": 66,
+				"x": 145,
+				"y": 1013
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 80,
+				"w": 66
+			},
+			"spriteSourceSize": {
+				"h": 80,
+				"w": 66,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/head.png": {
+			"frame": {
+				"h": 256,
+				"w": 200,
+				"x": 759,
+				"y": 331
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 256,
+				"w": 200
+			},
+			"spriteSourceSize": {
+				"h": 256,
+				"w": 200,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/head_1_b.png": {
+			"frame": {
+				"h": 256,
+				"w": 200,
+				"x": 446,
+				"y": 683
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 256,
+				"w": 200
+			},
+			"spriteSourceSize": {
+				"h": 256,
+				"w": 200,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/head_2.png": {
+			"frame": {
+				"h": 243,
+				"w": 196,
+				"x": 656,
+				"y": 597
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 243,
+				"w": 196
+			},
+			"spriteSourceSize": {
+				"h": 243,
+				"w": 196,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/hips.png": {
+			"frame": {
+				"h": 99,
+				"w": 176,
+				"x": 533,
+				"y": 480
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 100,
+				"w": 176
+			},
+			"spriteSourceSize": {
+				"h": 99,
+				"w": 176,
+				"x": 0,
+				"y": 1
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/hips_2.png": {
+			"frame": {
+				"h": 104,
+				"w": 169,
+				"x": 656,
+				"y": 933
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 104,
+				"w": 169
+			},
+			"spriteSourceSize": {
+				"h": 104,
+				"w": 169,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/hips_3.png": {
+			"frame": {
+				"h": 122,
+				"w": 162,
+				"x": 990,
+				"y": 814
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 122,
+				"w": 162
+			},
+			"spriteSourceSize": {
+				"h": 122,
+				"w": 162,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/leg_l.png": {
+			"frame": {
+				"h": 229,
+				"w": 113,
+				"x": 990,
+				"y": 575
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 230,
+				"w": 113
+			},
+			"spriteSourceSize": {
+				"h": 229,
+				"w": 113,
+				"x": 0,
+				"y": 1
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/leg_r.png": {
+			"frame": {
+				"h": 229,
+				"w": 118,
+				"x": 862,
+				"y": 597
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 229,
+				"w": 118
+			},
+			"spriteSourceSize": {
+				"h": 229,
+				"w": 118,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/leg_r_2.png": {
+			"frame": {
+				"h": 235,
+				"w": 118,
+				"x": 969,
+				"y": 330
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 235,
+				"w": 118
+			},
+			"spriteSourceSize": {
+				"h": 235,
+				"w": 118,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/quiver.png": {
+			"frame": {
+				"h": 448,
+				"w": 120,
+				"x": 629,
+				"y": 5
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 448,
+				"w": 121
+			},
+			"spriteSourceSize": {
+				"h": 448,
+				"w": 120,
+				"x": 1,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/slash-0.png": {
+			"frame": {
+				"h": 193,
+				"w": 280,
+				"x": 243,
+				"y": 480
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 193,
+				"w": 280
+			},
+			"spriteSourceSize": {
+				"h": 193,
+				"w": 280,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/slash-1.png": {
+			"frame": {
+				"h": 465,
+				"w": 614,
+				"x": 5,
+				"y": 5
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 465,
+				"w": 614
+			},
+			"spriteSourceSize": {
+				"h": 465,
+				"w": 614,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/torso.png": {
+			"frame": {
+				"h": 263,
+				"w": 193,
+				"x": 243,
+				"y": 683
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 263,
+				"w": 193
+			},
+			"spriteSourceSize": {
+				"h": 263,
+				"w": 193,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/torso_2.png": {
+			"frame": {
+				"h": 264,
+				"w": 172,
+				"x": 759,
+				"y": 57
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 264,
+				"w": 172
+			},
+			"spriteSourceSize": {
+				"h": 264,
+				"w": 172,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/torso_belt.png": {
+			"frame": {
+				"h": 142,
+				"w": 172,
+				"x": 243,
+				"y": 956
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 143,
+				"w": 172
+			},
+			"spriteSourceSize": {
+				"h": 142,
+				"w": 172,
+				"x": 0,
+				"y": 1
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/torso_belt_2.png": {
+			"frame": {
+				"h": 61,
+				"w": 157,
+				"x": 620,
+				"y": 1047
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 61,
+				"w": 157
+			},
+			"spriteSourceSize": {
+				"h": 61,
+				"w": 157,
+				"x": 0,
+				"y": 0
+			},
+			"trimmed": "true"
+		},
+		"B - Sprites/Dark Thief/weapon-a.png": {
+			"frame": {
+				"h": 523,
+				"w": 88,
+				"x": 145,
+				"y": 480
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 529,
+				"w": 95
+			},
+			"spriteSourceSize": {
+				"h": 523,
+				"w": 88,
+				"x": 3,
+				"y": 6
+			},
+			"trimmed": "true"
+		}
+	},
+	"meta": {
+		"app": "Spriter",
+		"format": "RGBA8888",
+		"image": "spritesheet.png",
+		"scale": 1,
+		"size": {
+			"h": 1119,
+			"w": 1119
+		},
+		"version": "r10"
+	}
+}
