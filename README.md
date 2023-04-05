@@ -1,5 +1,7 @@
 # Autocratica
 
+## <img src="jetScholar_logo.png" width="300">
+
 ## Road Map & Work Log
 
 ### Game Overview
@@ -8,10 +10,13 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 
 ### Road Map
 
-- [ ] Initialize Game and Repo
-- [ ] Setup basic player mechanics
-- [ ] Import Assets
-- [ ] Setup basic animations
+- [x] Initialize Game and Repo
+- [x] Setup basic player mechanics
+- [x] Import Assets
+- [x] Setup basic animations
+- [ ] complex mechanics
+- [ ] graphics
+- [ ] menus
 
 ### Useful Links
 
@@ -24,3 +29,5 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 Date | Description | Version
 -----|-------------|--------
 31.3.23 | Initialized game and repo | 0.1.0
+05.04.23 | Player Movement | 0.1.2
+06.04.23 | Basic Animations | 0.1.3

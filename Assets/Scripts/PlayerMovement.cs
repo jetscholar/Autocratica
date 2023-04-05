@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
     // A rigid body variable
     private Rigidbody2D body;
     private Animator anim;
+    private bool grounded;
 
     [SerializeField] private float speed = 5;
 
@@ -30,12 +31,26 @@ public class PlayerMovement : MonoBehaviour
 
         
         // The jump mechanic
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && grounded)
         {
-            body.velocity = new Vector2(body.velocity.x, speed);
+            Jump();
         }
 
-        // Set animator properties
-        anim.SetBool("run", horizontalInput != 0);        
+        // Set animator parameters
+        anim.SetBool("run", horizontalInput != 0);
+        anim.SetBool("grounded", grounded);        
+    }
+
+    private void Jump()
+    {
+        body.velocity = new Vector2(body.velocity.x, speed);
+        anim.SetTrigger("jump");
+        grounded = false;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+            grounded = true;
     }
 }
