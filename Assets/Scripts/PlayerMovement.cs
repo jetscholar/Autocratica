@@ -4,6 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 5;
     [SerializeField]private LayerMask groundLayer;
+    [SerializeField]private LayerMask wallLayer;
     // A rigid body variable
     private Rigidbody2D body;
     private Animator anim;
@@ -41,7 +42,10 @@ public class PlayerMovement : MonoBehaviour
 
         // Set animator parameters
         anim.SetBool("run", horizontalInput != 0);
-        anim.SetBool("grounded", isGrounded());        
+        anim.SetBool("grounded", isGrounded());   
+
+        //DEBUG 
+        print(onWall());     
     }
 
     private void Jump()
@@ -60,4 +64,11 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
     }
+
+    private bool onWall() 
+    {
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
+        return raycastHit.collider != null;
+    }
+    
 }

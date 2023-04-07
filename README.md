@@ -14,7 +14,8 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Setup basic player mechanics
 - [x] Import Assets
 - [x] Setup basic animations
-- [ ] complex mechanics
+- [ ] more complex mechanics with ray cast and box cast
+- [ ] Layer masks
 - [ ] graphics
 - [ ] menus
 
@@ -32,3 +33,4 @@ Date | Description | Version
 05.04.23 | Player Movement | 0.1.2
 06.04.23 | Basic Animations | 0.1.3
 07.04.23 | Raycast & Boxcast | 0.1.4
+08.04.23 | Layer Masks | 0.1.5
