@@ -31,3 +31,4 @@ Date | Description | Version
 31.3.23 | Initialized game and repo | 0.1.0
 05.04.23 | Player Movement | 0.1.2
 06.04.23 | Basic Animations | 0.1.3
+07.04.23 | Raycast & Boxcast | 0.1.4

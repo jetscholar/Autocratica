@@ -2,18 +2,21 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private float speed = 5;
+    [SerializeField]private LayerMask groundLayer;
     // A rigid body variable
     private Rigidbody2D body;
     private Animator anim;
-    private bool grounded;
+    private BoxCollider2D boxCollider;
 
-    [SerializeField] private float speed = 5;
+
 
     private void Awake()
     {
         // Get references to rigidbody and animator from game object
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     private void Update()
@@ -31,26 +34,30 @@ public class PlayerMovement : MonoBehaviour
 
         
         // The jump mechanic
-        if (Input.GetKey(KeyCode.Space) && grounded)
+        if (Input.GetKey(KeyCode.Space) && isGrounded())
         {
             Jump();
         }
 
         // Set animator parameters
         anim.SetBool("run", horizontalInput != 0);
-        anim.SetBool("grounded", grounded);        
+        anim.SetBool("grounded", isGrounded());        
     }
 
     private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, speed);
         anim.SetTrigger("jump");
-        grounded = false;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
-            grounded = true;
+
+    }
+
+    private bool isGrounded() 
+    {
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
+        return raycastHit.collider != null;
     }
 }
