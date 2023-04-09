@@ -16,8 +16,8 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Setup basic animations
 - [x] more complex mechanics with ray cast and box cast
 - [x] Layer masks
-- [ ] Shooting
-- [ ] graphics
+- [x] Shooting
+- [ ] Background Graphics (Tiles)
 - [ ] menus
 
 ### Useful Links
@@ -37,3 +37,4 @@ Date | Description | Version
 07.04.23 | Raycast & Boxcast | 0.1.4
 08.04.23 | Layer Masks | 0.1.5
 09.04.23 | Shooting | 0.1.6
+09/04.23 | Backgroung Graphics | 0.1.7
