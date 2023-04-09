@@ -14,14 +14,16 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Setup basic player mechanics
 - [x] Import Assets
 - [x] Setup basic animations
-- [ ] more complex mechanics with ray cast and box cast
-- [ ] Layer masks
+- [x] more complex mechanics with ray cast and box cast
+- [x] Layer masks
+- [ ] Shooting
 - [ ] graphics
 - [ ] menus
 
 ### Useful Links
 
 - [GDD][def]
+- [Pandemonium 2D](https://www.youtube.com/watch?v=PUpC44Q64zY&list=PLgOEwFbvGm5o8hayFB6skAfa8Z-mw4dPV&index=4)
 
 [def]: https://cgsacteduau-my.sharepoint.com/:w:/r/personal/57304_cgs_act_edu_au/Documents/Schoolwork/2023/Year%209%20IT/2.%20Resources/Autocratia-GDD.docx?d=w0e5229be3efa4cf9ba39160991b2803f&csf=1&web=1&e=Oqhkue
 
@@ -34,3 +36,4 @@ Date | Description | Version
 06.04.23 | Basic Animations | 0.1.3
 07.04.23 | Raycast & Boxcast | 0.1.4
 08.04.23 | Layer Masks | 0.1.5
+09.04.23 | Shooting | 0.1.6
