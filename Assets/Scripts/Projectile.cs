@@ -27,7 +27,7 @@ public class Projectile : MonoBehaviour
         if (lifetime > 5) gameObject.SetActive(false);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         hit = true;
         boxCollider.enabled = false;
