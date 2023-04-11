@@ -39,5 +39,6 @@ Date | Description | Version
 07.04.23 | Raycast & Boxcast | 0.1.4
 08.04.23 | Layer Masks | 0.1.5
 09.04.23 | Shooting | 0.1.6
-09.04.23 | Backgroung Graphics | 0.1.7
+09.04.23 | Background Graphics | 0.1.7
 10.04.23 | Camera setup | 0.1.8
+11.04.23 | Prefabs added | 0.1.9
