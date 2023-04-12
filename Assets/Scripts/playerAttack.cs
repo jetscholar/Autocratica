@@ -1,4 +1,7 @@
 using UnityEngine;
+/// <summary>
+/// This script fails to load sometimes...
+/// </summary>
 
 public class PlayerAttack : MonoBehaviour
 {

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4833479251140382}
   - component: {fileID: 212317359573799852}
-  - component: {fileID: 9172031596609201521}
+  - component: {fileID: 167059598668939373}
   m_Layer: 0
   m_Name: foot_r
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9172031596609201521
+--- !u!114 &167059598668939373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4395358397399608}
   - component: {fileID: 212521705697805500}
-  - component: {fileID: 2305732418436340321}
+  - component: {fileID: 3054864952319305668}
   m_Layer: 0
   m_Name: hand_l
   m_TagString: Untagged
@@ -186,7 +186,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2305732418436340321
+--- !u!114 &3054864952319305668
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4693770859562156}
   - component: {fileID: 212282628847208038}
-  - component: {fileID: 1894659257030295674}
+  - component: {fileID: 819543725035209277}
   m_Layer: 0
   m_Name: hips
   m_TagString: Untagged
@@ -287,7 +287,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1894659257030295674
+--- !u!114 &819543725035209277
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -668,7 +668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4956915116250558}
   - component: {fileID: 212252863734291284}
-  - component: {fileID: 1614234620480860421}
+  - component: {fileID: 7160023569905049518}
   m_Layer: 0
   m_Name: leg_r
   m_TagString: Untagged
@@ -743,7 +743,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1614234620480860421
+--- !u!114 &7160023569905049518
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1223,7 +1223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4476245894353612}
   - component: {fileID: 212443629723069216}
-  - component: {fileID: 5908528340851875826}
+  - component: {fileID: 7924009518132677369}
   m_Layer: 0
   m_Name: calf_r
   m_TagString: Untagged
@@ -1298,7 +1298,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5908528340851875826
+--- !u!114 &7924009518132677369
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1408,7 +1408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4801294923562540}
   - component: {fileID: 212505092208285096}
-  - component: {fileID: 6452904118723492406}
+  - component: {fileID: 1056606507782988271}
   m_Layer: 0
   m_Name: torso
   m_TagString: Untagged
@@ -1483,7 +1483,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6452904118723492406
+--- !u!114 &1056606507782988271
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1509,7 +1509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4826237982089032}
   - component: {fileID: 212446707530478698}
-  - component: {fileID: 3972218646483913431}
+  - component: {fileID: 5271727094414167373}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -1584,7 +1584,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3972218646483913431
+--- !u!114 &5271727094414167373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1946,7 +1946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4040717861265536}
   - component: {fileID: 212796806555857038}
-  - component: {fileID: 2497423660232395494}
+  - component: {fileID: 1265579588792134452}
   m_Layer: 0
   m_Name: slash-0
   m_TagString: Untagged
@@ -2021,7 +2021,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2497423660232395494
+--- !u!114 &1265579588792134452
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2345,7 +2345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4266203623687908}
   - component: {fileID: 212615764646629376}
-  - component: {fileID: 424042156775638073}
+  - component: {fileID: 7772240976795945083}
   m_Layer: 0
   m_Name: torso_belt
   m_TagString: Untagged
@@ -2420,7 +2420,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &424042156775638073
+--- !u!114 &7772240976795945083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2446,7 +2446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4399184625647076}
   - component: {fileID: 212050452217871442}
-  - component: {fileID: 3028992321104310341}
+  - component: {fileID: 4822329013475664750}
   m_Layer: 0
   m_Name: hand_r
   m_TagString: Untagged
@@ -2521,7 +2521,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3028992321104310341
+--- !u!114 &4822329013475664750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

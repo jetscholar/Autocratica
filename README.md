@@ -19,16 +19,25 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Shooting with Pooled Objects
 - [x] Background Graphics (Tiles)
 - [x] Camera
-- [ ] Health System
-- [ ] menus
+- [x] Health System
+- [x] Traps part 1
+- [ ] iFrames (8 minutes)
+- [ ] Traps part 2 (42 minutes)
+- [ ] Enemies (52 minutes)
+- [ ] Audio (20 minutes)
+- [ ] Advanced Jumping (15 minutes)
+- [ ] Checkpoints & Respawn (15 minutes)
+- [ ] Game Over (20 minutes)
+- [ ] Menus (22 minutes)
 
 ### Useful Links
 
-- [GDD][def]
-- [Pandemonium 2D](https://www.youtube.com/watch?v=PUpC44Q64zY&list=PLgOEwFbvGm5o8hayFB6skAfa8Z-mw4dPV&index=4)
+- [GDD][def1]
+- [Pandemonium 2D Platformer Series (15 Episodes)][def2]
 
-[def]: https://cgsacteduau-my.sharepoint.com/:w:/r/personal/57304_cgs_act_edu_au/Documents/Schoolwork/2023/Year%209%20IT/2.%20Resources/Autocratia-GDD.docx?d=w0e5229be3efa4cf9ba39160991b2803f&csf=1&web=1&e=Oqhkue
+[def1]: https://cgsacteduau-my.sharepoint.com/:w:/r/personal/57304_cgs_act_edu_au/Documents/Schoolwork/2023/Year%209%20IT/2.%20Resources/Autocratia-GDD.docx?d=w0e5229be3efa4cf9ba39160991b2803f&csf=1&web=1&e=Oqhkue
 
+[def2]: https://www.youtube.com/watch?v=TcranVQUQ5U&list=PLgOEwFbvGm5o8hayFB6skAfa8Z-mw4dPV
 ### Work Log
 
 Date | Description | Version
@@ -42,3 +51,4 @@ Date | Description | Version
 09.04.23 | Background Graphics | 0.1.7
 10.04.23 | Camera setup | 0.1.8
 11.04.23 | Prefabs added | 0.1.9
+12.04.23 | Traps & Collectibles | 0.1.10

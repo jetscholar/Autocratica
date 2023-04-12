@@ -20,7 +20,8 @@ namespace Spriter2UnityDX.Prefabs {
 			ProcessingInfo = info;
 		}
 
-		public bool Build (ScmlObject obj, string scmlPath) {
+        [Obsolete]
+        public bool Build (ScmlObject obj, string scmlPath) {
 			//The process begins by loading up all the textures
 			var success = true;
 			var directory = Path.GetDirectoryName (scmlPath);
@@ -57,7 +58,8 @@ namespace Spriter2UnityDX.Prefabs {
 			return success;
 		}
 
-		private void TryBuild (Entity entity, GameObject prefab, GameObject instance, string directory, string prefabPath, IDictionary<int, IDictionary<int, Sprite>> folders) {
+        [Obsolete]
+        private void TryBuild (Entity entity, GameObject prefab, GameObject instance, string directory, string prefabPath, IDictionary<int, IDictionary<int, Sprite>> folders) {
 			var controllerPath = string.Format ("{0}/{1}.controller", directory, entity.name);
 			var animator = instance.GetComponent<Animator> (); //Fetches the prefab's Animator
 			if (animator == null) animator = instance.AddComponent<Animator> (); //Or creates one if it doesn't exist
@@ -161,7 +163,9 @@ namespace Spriter2UnityDX.Prefabs {
 		}
 
 		private IList<TextureImporter> InvalidImporters = new List<TextureImporter> (); //Importers in this list have already been processed and don't need to be processed again
-		private Sprite GetSpriteAtPath (string path, File file, ref bool success) {
+
+        [Obsolete]
+        private Sprite GetSpriteAtPath (string path, File file, ref bool success) {
 			var importer = TextureImporter.GetAtPath (path) as TextureImporter;
 			if (importer != null) { //If no TextureImporter exists, there's no texture to be found
 				if ((importer.textureType != TextureImporterType.Sprite || importer.spritePivot.x != file.pivot_x 
