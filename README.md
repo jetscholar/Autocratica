@@ -4,7 +4,7 @@
 
 ## Road Map & Work Log
 
-##### Current Version: 0.1.11
+##### Current Version: 0.1.12
 
 ### Game Overview
 
@@ -56,3 +56,4 @@ Date | Description | Version
 11.04.23 | Prefabs added | 0.1.9
 12.04.23 | Traps & Collectibles | 0.1.10
 13.04.23 | iFrames | 0.1.11
+14.04.23 | Traps part 2 | 0.1.12
