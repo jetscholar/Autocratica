@@ -4,7 +4,7 @@
 
 ## Road Map & Work Log
 
-##### Current Version: 0.1.12
+##### Current Version: 0.1.13
 
 ### Game Overview
 
@@ -24,7 +24,7 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Health System
 - [x] Traps part 1
 - [x] iFrames (8 minutes)
-- [ ] Traps part 2 (42 minutes)
+- [x] Traps part 2 (42 minutes)
 - [ ] Enemies (52 minutes)
 - [ ] Audio (20 minutes)
 - [ ] Advanced Jumping (15 minutes)
@@ -57,3 +57,4 @@ Date | Description | Version
 12.04.23 | Traps & Collectibles | 0.1.10
 13.04.23 | iFrames | 0.1.11
 14.04.23 | Traps part 2 | 0.1.12
+15.04.23 | Traps part 2 complete | 0.1.13
