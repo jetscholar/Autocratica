@@ -23,7 +23,7 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Camera
 - [x] Health System
 - [x] Traps part 1
-- [ ] iFrames (8 minutes)
+- [x] iFrames (8 minutes)
 - [ ] Traps part 2 (42 minutes)
 - [ ] Enemies (52 minutes)
 - [ ] Audio (20 minutes)
