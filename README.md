@@ -4,7 +4,7 @@
 
 ## Road Map & Work Log
 
-##### Current Version: 0.1.13
+##### Current Version: 0.1.15
 
 ### Game Overview
 
@@ -58,3 +58,5 @@ Date | Description | Version
 13.04.23 | iFrames | 0.1.11
 14.04.23 | Traps part 2 | 0.1.12
 15.04.23 | Traps part 2 complete | 0.1.13
+15.04.23 | Enemies part 1 | 0.1.14
+17.04.23 | Enemies part 2 | 0.1.15
