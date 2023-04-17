@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Baked Soldier_Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 0602354607b0fae46ae97881dbfc4a98, type: 3}
+    - {fileID: 2800000, guid: 6fc2e39a281a14042a622a8159fd76c6, type: 3}
+    - {fileID: 2800000, guid: 1bca257f0ef05394fb76b91ed1a6dc2b, type: 3}
+    - {fileID: 2800000, guid: d6223a111e48a654dac42ec7157dadc2, type: 3}
+    - {fileID: 2800000, guid: 2009e6bc7b336eb4b8b2bf03911eee50, type: 3}
+    - {fileID: 2800000, guid: ce2d90d87bf4c6944af78306e11bfe74, type: 3}
+    - {fileID: 2800000, guid: 78f2535ddf5fb914aa53c4a3b11a6738, type: 3}
+    - {fileID: 2800000, guid: 2202c3c0af90d62418d555392f9ff1f5, type: 3}
+    - {fileID: 2800000, guid: 15e8b41623ece2f4c840642c7858d6e5, type: 3}
+    - {fileID: 2800000, guid: 223f092a69780dc40a14450360e78b8f, type: 3}
+    - {fileID: 2800000, guid: dce0571fde58b9240b076eedb81e2c5f, type: 3}
+    - {fileID: 2800000, guid: a921ad983e1a2c44888f48d23c063683, type: 3}
+    - {fileID: 2800000, guid: e86787d01ce4cac42822298ef97f2954, type: 3}
+    - {fileID: 2800000, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -9221563418718373416, guid: 2202c3c0af90d62418d555392f9ff1f5, type: 3}
+  - {fileID: 2828032271763480184, guid: e86787d01ce4cac42822298ef97f2954, type: 3}
+  - {fileID: -7670438834444436177, guid: d6223a111e48a654dac42ec7157dadc2, type: 3}
+  - {fileID: -7353344897174026298, guid: 15e8b41623ece2f4c840642c7858d6e5, type: 3}
+  - {fileID: 2914596143981778896, guid: 0602354607b0fae46ae97881dbfc4a98, type: 3}
+  - {fileID: -1184451281787742672, guid: 0602354607b0fae46ae97881dbfc4a98, type: 3}
+  - {fileID: -787564300394146941, guid: 0602354607b0fae46ae97881dbfc4a98, type: 3}
+  - {fileID: -4944552721621418197, guid: 0602354607b0fae46ae97881dbfc4a98, type: 3}
+  - {fileID: -8199258815149647361, guid: 0602354607b0fae46ae97881dbfc4a98, type: 3}
+  - {fileID: -4066976953478951114, guid: 0602354607b0fae46ae97881dbfc4a98, type: 3}
+  - {fileID: 4957864613835654088, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -1822613323893375605, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 3639646627959288018, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 4134470982481670237, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -1263573863819490191, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 7437712810571523569, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -583960610714688044, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -898639053329382019, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 7458940157792330750, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 5705251532562227289, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 1690286288046967238, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -1399624327711169782, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -5357680909130784801, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 6876705376049119537, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 8961321968670009713, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -5673618120071735642, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -6317339052227273607, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 8889010499501632577, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 497696812452471379, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: -4202001714812480543, guid: 7c537348af4fc4345ab7acca70d555cb, type: 3}
+  - {fileID: 3232276068272150754, guid: a921ad983e1a2c44888f48d23c063683, type: 3}
+  - {fileID: -6365657124307431345, guid: a921ad983e1a2c44888f48d23c063683, type: 3}
+  - {fileID: 445985395104545589, guid: a921ad983e1a2c44888f48d23c063683, type: 3}
+  - {fileID: -2141553470303897871, guid: a921ad983e1a2c44888f48d23c063683, type: 3}
+  - {fileID: -7221323957708701457, guid: a921ad983e1a2c44888f48d23c063683, type: 3}
+  - {fileID: -5488137945350207098, guid: a921ad983e1a2c44888f48d23c063683, type: 3}
+  - {fileID: -8395226341229142561, guid: ce2d90d87bf4c6944af78306e11bfe74, type: 3}
+  - {fileID: -2051806757058933141, guid: 223f092a69780dc40a14450360e78b8f, type: 3}
+  - {fileID: 5236627531192744792, guid: 6fc2e39a281a14042a622a8159fd76c6, type: 3}
+  - {fileID: -8302333284602621314, guid: 6fc2e39a281a14042a622a8159fd76c6, type: 3}
+  - {fileID: -8256532545452641940, guid: 6fc2e39a281a14042a622a8159fd76c6, type: 3}
+  - {fileID: 4479231603696803948, guid: 6fc2e39a281a14042a622a8159fd76c6, type: 3}
+  - {fileID: -3392787017019997869, guid: 6fc2e39a281a14042a622a8159fd76c6, type: 3}
+  - {fileID: 4544263305218597947, guid: 6fc2e39a281a14042a622a8159fd76c6, type: 3}
+  - {fileID: 8602337822535463475, guid: 2009e6bc7b336eb4b8b2bf03911eee50, type: 3}
+  - {fileID: 2350632813872090584, guid: 2009e6bc7b336eb4b8b2bf03911eee50, type: 3}
+  - {fileID: -2175203871650553333, guid: 78f2535ddf5fb914aa53c4a3b11a6738, type: 3}
+  - {fileID: -4923985027491169060, guid: 78f2535ddf5fb914aa53c4a3b11a6738, type: 3}
+  - {fileID: -5477068177870721875, guid: 78f2535ddf5fb914aa53c4a3b11a6738, type: 3}
+  - {fileID: 5349148180859718544, guid: 78f2535ddf5fb914aa53c4a3b11a6738, type: 3}
+  - {fileID: -7255587092214114523, guid: 78f2535ddf5fb914aa53c4a3b11a6738, type: 3}
+  - {fileID: 7411425907597164007, guid: 78f2535ddf5fb914aa53c4a3b11a6738, type: 3}
+  - {fileID: 4157595169170118822, guid: dce0571fde58b9240b076eedb81e2c5f, type: 3}
+  - {fileID: 3945512755767747900, guid: 1bca257f0ef05394fb76b91ed1a6dc2b, type: 3}
+  - {fileID: -5032069814162963849, guid: 1bca257f0ef05394fb76b91ed1a6dc2b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Hair S
+  - Weapon
+  - Eyebrow
+  - Helmet F
+  - Armor Lower Arm L
+  - Armor Lower Arm R
+  - Armor Upper Arm L
+  - Armor Body
+  - Armor Neck
+  - Armor Upper Arm R
+  - Upper Arm L
+  - Lower Arm L
+  - Upper Arm R
+  - Head
+  - Upper Leg R
+  - Neck
+  - Upper Leg L
+  - Hand R 0
+  - Hand R 1
+  - Hand L 0
+  - Hand L 1
+  - Lower Leg L
+  - Lower Leg F
+  - Foot R
+  - Lower Leg R
+  - Body
+  - Foot L
+  - Foot F
+  - Hip
+  - Lower Arm R
+  - Pants Upper Leg L
+  - Pants Upper Leg R
+  - Pants Lower Leg R
+  - Pants Lower Leg F
+  - Pants Lower Leg L
+  - Pants Hip
+  - Facial Hair
+  - Mouth F
+  - Boots Foot F
+  - Boots Foot L
+  - Boots Foot R
+  - Boots Lower Leg R
+  - Boots Lower Leg L
+  - Boots Lower Leg F
+  - Eyes B
+  - Eyes F
+  - Gloves Hand R 0
+  - Gloves Hand R 1
+  - Gloves Hand L 0
+  - Gloves Hand L 1
+  - Gloves Lower Arm L
+  - Gloves Lower Arm R
+  - Nose
+  - Ear L
+  - Ear R
+  m_RenderDataMap: {}
+  m_Tag: Baked Soldier_Atlas
+  m_IsVariant: 0
