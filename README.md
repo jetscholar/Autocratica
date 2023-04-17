@@ -1,10 +1,12 @@
 # Autocratica
 
-## <img src="jetScholar_logo.png" width="300">
+## <img src="jetScholar_logo.png" width="200">
+
+## <img src="Assets/Sprites/MayaVangard/Idle_Relaxed_MV/MayaVangard_Relaxed_000.png" width="300">
 
 ## Road Map & Work Log
 
-##### Current Version: 0.1.15
+##### Current Version: 0.1.16
 
 ### Game Overview
 
@@ -25,7 +27,10 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Traps part 1
 - [x] iFrames (8 minutes)
 - [x] Traps part 2 (42 minutes)
-- [ ] Enemies (52 minutes)
+- [x] Enemies 1 - Animations (9 minutes)
+- [x] Enemies 2 - Attacking (11 minutes)
+- [x] Enemies 3 - Patrolling and die (13 minutes)
+- [x] Enemies 4 - Ranged (15 minutes)
 - [ ] Audio (20 minutes)
 - [ ] Advanced Jumping (15 minutes)
 - [ ] Checkpoints & Respawn (15 minutes)
@@ -58,5 +63,7 @@ Date | Description | Version
 13.04.23 | iFrames | 0.1.11
 14.04.23 | Traps part 2 | 0.1.12
 15.04.23 | Traps part 2 complete | 0.1.13
-15.04.23 | Enemies part 1 | 0.1.14
-17.04.23 | Enemies part 2 | 0.1.15
+15.04.23 | Enemies part 1  basic setup | 0.1.14
+17.04.23 | Enemies part 2 attack | 0.1.15
+17.04.23 | Enemies part 3 patrol and die | 0.1.16
+17.04.23 | Enemies part 4 ranged attack | 0.1.16

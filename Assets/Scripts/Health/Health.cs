@@ -17,6 +17,10 @@ public class Health : MonoBehaviour
     [SerializeField] private int numberOfFlashes;
     private SpriteRenderer spriteRend;
 
+    [Header ("Components")]
+    [SerializeField] private Behaviour[] components;
+    private bool invulnerable;
+
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -26,6 +30,7 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
+        if (invulnerable) return;
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
         if (currentHealth > 0)
@@ -38,9 +43,27 @@ public class Health : MonoBehaviour
         {
             if (!dead) 
             {
-                // player ist tot!
                 anim.SetTrigger("die");
-                GetComponent<PlayerMovement>().enabled = false;
+                
+                // player ist tot!
+                // Check first if the components are not null to avoid exceptions
+                // if (GetComponent<PlayerMovement>() != null)
+                //     GetComponent<PlayerMovement>().enabled = false;
+
+                // // Enemy is tot!
+                // if (GetComponentInParent<EnemyPatrol>() != null)
+                //     GetComponentInParent<EnemyPatrol>().enabled = false;
+
+                // if (GetComponent<Soldier1>() != null)
+                //     GetComponent<Soldier1>().enabled = false;
+
+                // This loop replaces the code above
+                // Deactivates all attached component classes (see above)
+                foreach (Behaviour component in components)
+                {
+                    component.enabled = false;
+                }
+
                 dead = true;
             }
         }
@@ -53,6 +76,7 @@ public class Health : MonoBehaviour
 
     private IEnumerator Invunerability()
     {
+        invulnerable = true;
         Physics2D.IgnoreLayerCollision(7, 8, true);
         for (int i = 0; i < numberOfFlashes; i++)
         {
@@ -62,5 +86,10 @@ public class Health : MonoBehaviour
             yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
         }
         Physics2D.IgnoreLayerCollision(7, 8, false);
+        invulnerable = false;
+    }
+    private void Deactivate()
+    {
+        gameObject.SetActive(false);
     }
 }
