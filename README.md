@@ -2,11 +2,11 @@
 
 ## <img src="jetScholar_logo.png" width="200">
 
-## <img src="Assets/Sprites/MayaVangard/Idle_Relaxed_MV/MayaVangard_Relaxed_000.png" width="300">
+## <img src="MayaVangard_Relaxed_000.png" width="300">
 
 ## Road Map & Work Log
 
-##### Current Version: 0.1.16
+##### Current Version: 0.1.17
 
 ### Game Overview
 
@@ -66,4 +66,4 @@ Date | Description | Version
 15.04.23 | Enemies part 1  basic setup | 0.1.14
 17.04.23 | Enemies part 2 attack | 0.1.15
 17.04.23 | Enemies part 3 patrol and die | 0.1.16
-17.04.23 | Enemies part 4 ranged attack | 0.1.16
+17.04.23 | Enemies part 4 ranged attack | 0.1.17
