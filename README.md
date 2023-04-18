@@ -2,7 +2,7 @@
 
 ## <img src="jetScholar_logo.png" width="200">
 
-## <img src="Maya Vangard.png" width="100"><img src="Capstone_transparent.png" width="150"><img src="Ivan Volkov.png" width="180">
+## <img src="Maya Vangard.png" width="100"><img src="Capstone_Transparent.png" width="150"><img src="Ivan Volkov.png" width="180">
 
 ## Road Map & Work Log
 
@@ -31,7 +31,7 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Enemies 2 - Attacking (11 minutes)
 - [x] Enemies 3 - Patrolling and die (13 minutes)
 - [x] Enemies 4 - Ranged (15 minutes)
-- [ ] Audio (20 minutes)
+- [x] Audio (20 minutes)
 - [ ] Advanced Jumping (15 minutes)
 - [ ] Checkpoints & Respawn (15 minutes)
 - [ ] Game Over (20 minutes)
