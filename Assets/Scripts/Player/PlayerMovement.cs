@@ -2,10 +2,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header ("Player Parameters")]
     [SerializeField] private float speed = 5;
     [SerializeField] private float jumpPower;
-    [SerializeField]private LayerMask groundLayer;
-    [SerializeField]private LayerMask wallLayer;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask wallLayer;
+
+    [Header ("SFX")]
+    [SerializeField] private AudioClip jumpSound;
     // A rigid body variable
     private Rigidbody2D body;
     private Animator anim;
@@ -56,7 +60,13 @@ public class PlayerMovement : MonoBehaviour
                 body.gravityScale = 1;
 
             if (Input.GetKey(KeyCode.Space))
+            {
                 Jump();
+
+                if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
+                    SoundManager.instance.PlaySound(jumpSound);
+            }
+                
                 
         }
         else

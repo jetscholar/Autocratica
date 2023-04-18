@@ -2,11 +2,11 @@
 
 ## <img src="jetScholar_logo.png" width="200">
 
-## <img src="MayaVangard_Relaxed_000.png" width="300">
+## <img src="Maya Vangard.png" width="100"><img src="Capstone_transparent.png" width="150"><img src="Ivan Volkov.png" width="180">
 
 ## Road Map & Work Log
 
-##### Current Version: 0.1.17
+##### Current Version: 0.1.18
 
 ### Game Overview
 
@@ -67,3 +67,4 @@ Date | Description | Version
 17.04.23 | Enemies part 2 attack | 0.1.15
 17.04.23 | Enemies part 3 patrol and die | 0.1.16
 17.04.23 | Enemies part 4 ranged attack | 0.1.17
+18.04.23 | Audio SFX and Background Music | 0.1.18

@@ -15,6 +15,9 @@ public class Soldier1 : MonoBehaviour
     [SerializeField] private LayerMask playerLayer;
     private float cooldownTimer = Mathf.Infinity;
 
+    [Header ("Attack Sound")]
+    [SerializeField] private AudioClip attackSound;
+
     // References
     private Animator anim;
     private Health playerHealth;
@@ -40,11 +43,12 @@ public class Soldier1 : MonoBehaviour
         // Attack when enemy sees player
         if (PlayerInSight())
         {
-            if (cooldownTimer >= attackCooldown)
+            if (cooldownTimer >= attackCooldown && playerHealth.currentHealth > 0)
             {
                 //Attack
                 cooldownTimer = 0;
                 anim.SetTrigger("attackMH3");
+                SoundManager.instance.PlaySound(attackSound);
             }
         }
 
