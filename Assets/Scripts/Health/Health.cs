@@ -48,24 +48,11 @@ public class Health : MonoBehaviour
         {
             if (!dead) 
             {
-                anim.SetTrigger("die");
-                
-                // player ist tot!
-                // Check first if the components are not null to avoid exceptions
-                // if (GetComponent<PlayerMovement>() != null)
-                //     GetComponent<PlayerMovement>().enabled = false;
-
-                // // Enemy is tot!
-                // if (GetComponentInParent<EnemyPatrol>() != null)
-                //     GetComponentInParent<EnemyPatrol>().enabled = false;
-
-                // if (GetComponent<Soldier1>() != null)
-                //     GetComponent<Soldier1>().enabled = false;
-
-                // This loop replaces the code above
-                // Deactivates all attached component classes (see above)
                 foreach (Behaviour component in components)
                     component.enabled = false;
+
+                anim.SetBool("grounded", true);
+                anim.SetTrigger("die");
 
                 dead = true;
                 SoundManager.instance.PlaySound(deathSound);

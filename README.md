@@ -6,7 +6,7 @@
 
 ## Road Map & Work Log
 
-##### Current Version: 0.1.18
+##### Current Version: 0.1.19
 
 ### Game Overview
 
@@ -32,7 +32,7 @@ Autocratica is a 2D platformer game that follows the story of Maya Vanguard, a c
 - [x] Enemies 3 - Patrolling and die (13 minutes)
 - [x] Enemies 4 - Ranged (15 minutes)
 - [x] Audio (20 minutes)
-- [ ] Advanced Jumping (15 minutes)
+- [x] Advanced Jumping (15 minutes)
 - [ ] Checkpoints & Respawn (15 minutes)
 - [ ] Game Over (20 minutes)
 - [ ] Menus (22 minutes)
@@ -68,3 +68,4 @@ Date | Description | Version
 17.04.23 | Enemies part 3 patrol and die | 0.1.16
 17.04.23 | Enemies part 4 ranged attack | 0.1.17
 18.04.23 | Audio SFX and Background Music | 0.1.18
+20.04.23 | Advanced Jumping mechanics | 0.1.19
