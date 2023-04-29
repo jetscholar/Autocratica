@@ -117,7 +117,7 @@ public class PlayerMovement : MonoBehaviour
     private void WallJump() 
     {
         body.AddForce(new Vector2(-Mathf.Sign(transform.localScale.x) * wallJumpX, wallJumpY));
-        wallJumpCooldown = 0;
+        wallJumpCooldown = 0; 
     }
 
     private bool isGrounded() 
